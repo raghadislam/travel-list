@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Travel-List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and interactive React app to help you organize everything you need for your next trip!
+Add items, mark them as packed, sort your list, and clear everything once you’re ready to go.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+**Travel-List** is a React project I built while learning about **state and state management**.
+It’s designed to make packing easier and to help me practice how data flows between React components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project taught me how to use **React’s `useState` hook**, manage dynamic lists, handle user input, and build reusable components that work together.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Add items with quantity and description
+- Mark items as packed/unpacked
+- Sort items by input order, name, or packed status
+- Delete individual items
+- Clear the entire list with confirmation
+- View real-time packing progress and stats
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What I Learned
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+While building this app, I learned:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- How to use **React’s `useState`** for managing local component data
+- How to **update, delete, and toggle state values**
+- How to **pass functions and data through props**
+- How to **split components** into separate files for better structure
+- How to design **clean component-based UIs**
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+src/
+├── components/
+│   ├── App.js
+│   ├── Form.js
+│   ├── Item.js
+│   ├── Logo.js
+│   ├── PackingList.js
+│   └── Stats.js
+├── index.css
+└── index.js
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+1. Clone the repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   git clone https://github.com/raghadislam/travel-list.git
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Install dependencies
 
-### Code Splitting
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Run the app locally
 
-### Analyzing the Bundle Size
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Open **[http://localhost:3000](http://localhost:3000)** to use Travel-List in your browser
